@@ -9,7 +9,7 @@
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
  */
 ((function(){
-  var url = 'https://github.com/thedod/cispablackout/',
+  var url = 'http://thedod.github.io/cispablackout/', /* FIX THIS if you install the script at your site */
       d = new Date(),
       day = d.getDate(),
       month = d.getMonth(),
@@ -29,7 +29,7 @@
     if (!(j = window.jQuery) || version > j.fn.jquery || callback(j, loaded)) {
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js";
+        script.src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js";
         script.onload = script.onreadystatechange = function() {
             if (!loaded && (!(d = this.readyState) || d == "loaded" || d == "complete")) {
                 callback((j = window.jQuery).noConflict(1), loaded = true);
@@ -39,7 +39,7 @@
         document.documentElement.childNodes[0].appendChild(script)
     }
 
-  })(window, document, "1.7", function($, jquery_loaded) {
+  })(window, document, "1.8", function($, jquery_loaded) {
 
     $(document).ready(function() {
       if($(window).width() < 658) return;

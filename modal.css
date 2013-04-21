@@ -10,10 +10,8 @@
 	margin:auto;
 }
 #dp_cispa_modal .content {
-	/*padding: 15px 20px 15px 30px;*/
         padding:4px;
 }
-
 #dp_cispa_modal a {color: #9f1719;}
 #dp_cispa_modal p {margin: 0 0 15px 0;}
 #dp_cispa_modal p.large {
