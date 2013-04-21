@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SOPAstrikify.js</title>
+  <title>CISPA blackout</title>
   
   <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" />
   <style type="text/css">
@@ -16,25 +16,21 @@
     #embed h6 {
       text-align:center;
     }
-      #embed pre {
-        margin:0 auto;
-        width:720px;
-        overflow:hidden;
-        white-space:nowrap;
+      #embed input {
+        text-align:center;
+        cursor:inherit;
       }
   </style>
 </head>
 <body>
-
 <div class="container">
   <div class="hero-unit">
-    <h1>SOPAstrikify.js</h1>
+    <h1>cispablackout.js</h1>
     <p>
-      On January 18, 2012 from 8:00 AM to 8:00 PM EST, this web page will go dark in protest of SOPA.
+      On April 22, 2013, this web page will go dark in protest of cispa.
     </p>
     <p>
-      <button class="btn danger" id="preview">Preview for 10 seconds</button>
-      <a href="http://github.com/ianli/sopastrikify/" class="btn info">Get the Code &raquo;</a>
+      <a href="https://github.com/thedod/cispablackout/" class="btn info">Get the Code &raquo;</a>
     </p>
   </div>
 </div>
@@ -42,29 +38,17 @@
   <div class="row">
     <div class="span16" id="embed">
       <h6>Embed the code:</h6>
-      <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;http://ianli.github.com/sopastrikify/sopastrikify.js&quot;&gt;&lt;/script&gt;</pre>
+      <input class="span16" readonly=readonly onclick="this.select()"
+        value="&lt;script type=&quot;text/javascript&quot; src=&quot;https://github.com/thedod/cispablackout/cispablackout.js&quot;&gt;&lt;/script&gt;">
     </div>
   </div>
   <footer>
     Copyright 2012 <a href="http://ianli.com">Ian Li</a>.
-    Licensed under <a href="http://www.opensource.org/licenses/mit-license.php">the MIT License</a>.
+    Licensed under <a href="http://www.opensource.org/licenses/mit-license.php">the MIT License</a>
+    (The Dod mashed it up with some <a href="http://www.fixthecfaa.com/">"Aaron's law"</a> code, we'll figure out the licenses later ;) ).
   </footer>
 </div>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://ianli.github.com/sopastrikify/sopastrikify.js"></script>
-<script type="text/javascript">
-  $(function () {
-    $('#preview').click(function () {
-      sopaStrikifyJQuery();
-      
-      setTimeout(function () {
-        $('iframe').fadeOut('slow', function () {
-          $(this).remove();
-        });
-      }, 10000);
-    });
-  });
-</script>
+<script type="text/javascript" src="cispablackout.js"></script>
 </body>
 </html>
