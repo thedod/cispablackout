@@ -1,0 +1,210 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+a
+{
+	color: #26B7FF;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+#wrapper
+{
+	min-height: 100%;
+	min-width: 1150px;
+	position: relative;
+}
+
+#header
+{
+	background-image: url('images/blackorchid.png');
+	width: 100%;
+	height: 100px; 
+	text-align: center;
+	border-bottom: solid 2px red;
+}
+
+#header-title
+{
+	padding: 5px;
+	padding-top: 15px;
+	color: red;
+	font-size: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#main
+{
+	min-height: 700px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 184px;	/* = padding-bottom for this element MUST be the same as the height of the footer element = */
+}
+
+#main .title
+{
+	font-size: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+#main-description
+{
+	padding: 5px;
+	font-size: 18px;
+}
+
+#main-action
+{
+	margin: 0px 11% 0px 11%;
+	padding: 20px;
+}
+
+#main-action img
+{
+	padding: 5px;
+	border: solid 1px #A9A9A9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#main-action #call-senator
+{
+	width: 400px;
+}
+
+#main-action #sign-petition
+{
+	width: 400px;
+}
+
+#main-closing
+{
+	padding: 20px;
+	font-size: 15px;
+	font-style: bold;
+}
+
+#footer
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: grey;
+	border-top: solid 1px #A9A9A9;
+	font-family: 'Noto Sans', sans-serif;
+	height: 186px;
+	width: 100%;
+}
+
+#footer-title
+{
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer img
+{
+	border: none;
+}
+
+#getcode
+{
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#twitter
+{
+	border-color: grey;
+	padding: 5px;
+	width: 120px;
+	height: 120px;
+}
+
+#twitter:hover
+{
+	opacity: 0.5;
+}
+
+#facebook
+{
+	padding: 5px;
+	width: 120px;
+	height: 120px;
+}
+
+#facebook:hover
+{
+	opacity: 0.5;
+}
+
+#previewthumb
+{
+	padding: 5px;
+	width: 200px;
+	height: 120px;
+}
+
+#previewthumb:hover
+{
+	opacity: 0.5;
+}
+
+#learnmore
+{
+	margin-left: 20px;
+	padding: 5px;
+	width: 200px;
+	height: 120px;
+}
+
+#learnmore:hover
+{
+	opacity: 0.5;
+}
+
+#makeyourvoiceheard
+{
+	margin: 0px 30px 0px 30px;
+	padding: 2px;
+	width: 100px;
+	height: 145px;
+}
+
+#makeyourvoiceheard:hover
+{
+	opacity: 0.5;
+}
+
+#code-box
+{
+	padding: 5px;
+	font-size: 15px;
+	font-family: 'Corbel';
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
