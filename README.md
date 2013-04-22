@@ -8,7 +8,7 @@ If you have a non-SSL site, simply add this before your `</body>`:
 `<script type="text/javascript" src="http://thedod.github.io/cispablackout/cispablackout.js"></script>`
 
 At the moment, the only solution for SSL sites is to [download]() the code and serve it locally.
-You'll also need to fix the url at `cispablackout.js` (search for <em>FIX ME</em>).
+You'll also need to fix the url at `cispablackout.js` (search for <em>FIX THIS</em>).
 
 Good luck.
 
