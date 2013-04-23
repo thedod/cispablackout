@@ -1,6 +1,14 @@
 cispablackout.js
 ===============
 
+This code was written for an event in the past, but may be useful to fork in the future for similar occasions.
+
+The file `cispablackout.js` is now empty (to make it more efficients at sites where the webmasters still include that file).
+the code is still available at `cispablackout-always.js` &mdash; a version that works regardless of date (for [demo](http://thedod.github.io/cispablackout) purposes).
+
+------
+
+### Original "pre-blackout" README
 This is a Javascript utility to blackout websites on April 22, 2013. this utility will overlay a popup linking to [sitesnotspies.org](sitesnotspies.org)
 
 If you have a non-SSL site, simply add this before your `</body>`:
